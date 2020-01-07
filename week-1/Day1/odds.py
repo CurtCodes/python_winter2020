@@ -15,5 +15,9 @@ for number in range(1, N+1):
 counter = 1
 while counter <= N:
     if (counter%2==1):
-        print(number)
-    number +=1
+        print(counter)
+    counter +=1
+    
+#    WRONG CODE for WHILE LOOP
+# Code has been fixed. The problem was inconsistent variables
+
